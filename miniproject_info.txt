@@ -1,0 +1,28 @@
+PROJECT AIM:
+
+To design and implement a C program that converts infix arithmetic expressions into postfix notation using a LIFO stack data structure.
+
+PROJECT STRUCTURE:
+
+1. stack.h (Header File)
+
+   - Declares stack variables and core functions.
+
+2. stack.c (Implementation File)
+
+   - Contains stack array, top pointer, push(), pop(), and priority() functions.
+
+3. main.c (Driver File)
+
+   - Handles user input and the infix-to-postfix conversion algorithm.
+
+COMPILATION & EXECUTION:
+
+- Place stack.h, stack.c, and main.c in the same folder.
+
+- Compile using: gcc main.c stack.c .
+
+OUTPUT:
+
+Target Input Infix Expression: (A + B) * (C - D) ^ E
+Expected Output Postfix (PSF String): A B + C D - E ^ *
